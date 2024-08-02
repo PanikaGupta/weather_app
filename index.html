@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color:rgb(203, 203, 169);
+            height: 100%;
+        }
+        div.main{
+            margin-top: 5%;
+            border: solid 2px black;
+            padding: 50px;
+            display: inline-block;
+            border-radius: 8px;
+            box-shadow:5px 5px 5px 5px rgb(81, 78, 46);
+            
+        }
+        button{
+            color: white;
+            background-color: green;
+            padding: 6px;
+            border: 2px solid black;
+            display: inline-block;
+            font-size: 24px;
+            border-radius: 6px;
+        }
+        input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <h1>Find the current details of the location </h1>
+    <div class="main">
+    
+    <div class ="container">
+        <input type="text"  id ="city-input" placeholder="enter your city">
+        <button id="search-button" >Search</button>
+
+    </div>
+    <h2 id="city-name" style="font-size:35px;"></h2>
+    <h3 id="city-time"></h3>
+    <h4 id="city-temp"></h4>
+</div>
+    <script src="script.js" ></script>
+    
+
+</body>
+</html>
