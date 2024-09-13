@@ -9,7 +9,7 @@ const city_temp=document.getElementById("city-temp");
 // http://api.weatherapi.com/v1/current.json?key=f0f6b839817348d691e101527242607&q=${input}&aqi=yes
 
 async function getdata(city_name){
-    const result =await fetch(`http://api.weatherapi.com/v1/current.json?key=f0f6b839817348d691e101527242607&q=${city_name}&aqi=yes`);
+    const result =await fetch(`https://api.weatherapi.com/v1/current.json?key=f0f6b839817348d691e101527242607&q=${city_name}&aqi=yes`);
     return await result.json();
 }
 button.addEventListener("click",async ()=>{
